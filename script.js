@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     submitBtn.addEventListener("click", () => {
         const code = codeInput.value.trim();
 
-        if (code === "GAME") {
+        if (code === "Melocotón") {
             message.textContent = "Correct!";
         } else {
             message.textContent = "Wrong code.";
