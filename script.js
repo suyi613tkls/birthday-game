@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const code = codeInput.value.trim();
 
         if (code === "Melocotón") {
-            message.textContent = "MUY BIEEEN JAJAJAJ.\n Dale, a por el siguiente.";
+            message.textContent = "MUY BIEEEN JAJAJAJ.<br>Dale, a por el siguiente.";
         } else {
             message.textContent = "Ese gato no era";
         }
